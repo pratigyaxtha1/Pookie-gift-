@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For My Pookie 💌</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe6f0, #e6f7ff);
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: #ff4d6d;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin: auto;
+      width: 70%;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 30px;
+      color: red;
+    }
+
+    button {
+      background: #ff4d6d;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #ff1a4d;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>For My Pookie 💌</h1>
+
+  <div class="card">
+    <p class="heart">💖</p>
+    <p>
+      Even if miles are between us,<br>
+      my heart still finds its way to you.<br><br>
+
+      I made this little space just to remind you:<br>
+      You are my favorite place in the world. 🌷
+    </p>
+
+    <button onclick="alert('I miss you more than words can say 💕')">
+      Click me
+    </button>
+  </div>
+
+</body>
+</html>
